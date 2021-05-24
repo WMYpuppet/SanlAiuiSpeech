@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/btn_wsanl">
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:singleLine="true"
+            android:maxEms="20"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/tv_bed_name"/>
+</RelativeLayout>

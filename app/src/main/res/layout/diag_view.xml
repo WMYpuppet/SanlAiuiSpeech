@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/et_diag"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="100px"
+    android:layout_marginRight="100px"
+    android:textSize="25dp"
+    android:background="@drawable/et_style"/>
+</LinearLayout>

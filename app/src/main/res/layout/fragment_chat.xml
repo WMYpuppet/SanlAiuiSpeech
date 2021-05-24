@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 语音对话显示 -->
+    <LinearLayout
+        android:id="@+id/ll_dialog_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.example.administrator.sanlaiuispeech.util.VerticalMarqueeTextView
+            android:id="@+id/vmt_robot_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:gravity="center"
+            app:autoStartMarquee="true"
+            app:marqueeSpeed="5"
+            app:textColor="@color/white"
+            app:textSize="@dimen/talk_text_size" />
+
+        <com.example.administrator.sanlaiuispeech.util.VerticalMarqueeTextView
+            android:id="@+id/tv_robot_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:gravity="left"
+            app:autoStartMarquee="true"
+            app:marqueeSpeed="5"
+            app:textColor="@color/white"
+            app:textSize="@dimen/talk_text_size" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

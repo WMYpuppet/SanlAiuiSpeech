@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:background="@mipmap/btn_exhibition1"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/tv_exhibition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="1号展台"
+        android:textSize="25dp"
+        android:textColor="@color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:visibility="gone"/>
+</LinearLayout>
