@@ -14,14 +14,9 @@ import com.iflytek.mobileXCorebusiness.base.application.BaseBusApplication;
  */
 public class SpeechApp extends BaseBusApplication {
 
-    /**
-     * 单例
-     */
+
     private static SpeechApp instance;
-    /**
-     * 获取Application单例
-     * @return StarRobotApplication
-     */
+
     public static SpeechApp getInstance() {
         return instance;
     }
@@ -31,9 +26,7 @@ public class SpeechApp extends BaseBusApplication {
         instance = this;
         SpeechUtility.createUtility(SpeechApp.this, "appid="+"5ce62818" );
 
-        /**
-         * 初始化数据库
-         */
+
         db = new DbHelper(getApplicationContext());
         db.init(Constant.DATABASE_NAME, Constant.DATABASE_VERSION);
     }
